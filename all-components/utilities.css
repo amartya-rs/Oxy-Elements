@@ -1,0 +1,17 @@
+:root {
+    --BLACK: rgb(0,0,0);
+    --RED: rgb(212, 49, 49);
+    --PURE-RED: rgb(255, 0, 0);
+    --WHITE: rgb(255, 255, 255);
+    --GREEN: rgb(0, 255, 0);
+    --GREY: rgb(200, 200, 200);
+}
+
+
+/*rest css*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}

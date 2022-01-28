@@ -1,0 +1,57 @@
+@import url('/components/utilities.css');
+
+
+.badge-container {
+    display: inline-flex;
+    position: relative;
+}
+
+
+/*avatars with status badge*/
+.status-badge{
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    border: 2.25px solid var(--WHITE);
+    
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+}
+
+.dnd {
+    background: linear-gradient(45deg, var(--PURE-RED), var(--BLACK));
+}
+
+.online {
+    background: var(--GREEN);
+}
+
+.offline {
+    background: var(--GREY);
+}
+
+
+/*icon with number badge*/
+.badge-icon {
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.number-badge {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+
+    color: var(--WHITE);
+    font-size: x-small;
+    
+    position: absolute;
+    right: -0.65rem;
+    top: -0.55rem;
+  }

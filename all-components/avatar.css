@@ -1,0 +1,28 @@
+@import url('./utilities.css');
+
+
+.avatar-circle {
+    border-radius: 50%;
+    border: 1px solid black;
+    object-fit: cover;
+}
+
+.avatar-square {
+    border-radius: 15%;
+    border: 1px solid black;
+}
+
+.avatar-l {
+    height: 4.5rem;
+    width: 4.5rem;
+}
+
+.avatar-m {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.avatar-s {
+    height: 2.5rem;
+    width: 2.5rem;
+}

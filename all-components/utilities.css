@@ -1,10 +1,12 @@
 :root {
-    --BLACK: rgb(0,0,0);
-    --RED: rgb(212, 49, 49);
+    --PRIMARY-COLOR: rgb(145, 55, 135);
+    --SECONDARY-COLOR: rgb(0,0,0);
+    --RED: rgb(215, 50, 50);
     --PURE-RED: rgb(255, 0, 0);
     --WHITE: rgb(255, 255, 255);
-    --GREEN: rgb(0, 255, 0);
     --GREY: rgb(200, 200, 200);
+    --WARNING-COLOR: rgb(255, 180, 0);
+    --SUCCESS-COLOR: rgb(50, 200, 50);
 }
 
 

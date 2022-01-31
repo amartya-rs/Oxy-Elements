@@ -8,6 +8,7 @@
     height: 3rem;
     width: 80%;
     border-radius: 0.65rem;
+    background: var(--WHITE);
     
     display: inline-flex;
     justify-content: flex-start;

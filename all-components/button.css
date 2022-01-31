@@ -64,7 +64,7 @@
 
 .button-icons {
     min-width: max-content;
-    gap: 0.5rem;
+    gap: 8px;
 
     display: inline-flex;
     justify-content: start;

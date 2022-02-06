@@ -1,0 +1,194 @@
+@import url('/components/utilities.css');
+
+
+/*common button styling*/
+.button {
+    min-width: 8.75rem;
+    width: max-content;
+    height: 2.5rem;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+}
+
+.round-edge {
+    border-radius: 5rem;
+}
+
+
+/*solid button*/
+.primary {
+    background: var(--PRIMARY-COLOR);
+    color: var(--WHITE);
+}
+
+.primary:hover {
+    background: var(--PRIMARY-HOVER);
+    color: var(--WHITE);
+}
+
+.secondary {
+    background: var(--SECONDARY-COLOR);
+    color: var(--WHITE);
+}
+
+.secondary:hover {
+    background: var(--SECONDARY-HOVER);
+    color: var(--WHITE);
+}
+
+.success {
+    background: var(--SUCCESS-COLOR);
+    color: var(--WHITE);
+}
+
+.success:hover {
+    background: var(--SUCCESS-HOVER);
+    color: var(--WHITE);
+}
+
+.warning {
+    background: var(--WARNING-COLOR);
+    color: var(--WHITE);
+}
+
+.warning:hover {
+    background: var(--WARNING-HOVER);
+    color: var(--WHITE);
+}
+
+.danger {
+    background: var(--DANGER-COLOR);
+    color: var(--WHITE);
+}
+
+.danger:hover {
+    background: var(--DANGER-HOVER);
+    color: var(--WHITE);
+}
+
+
+/*outline button*/
+.outline-primary {
+    background: var(--WHITE);
+    border: 0.15rem solid var(--PRIMARY-COLOR);
+    color: var(--PRIMARY-COLOR);
+}
+
+.outline-primary:hover {
+    background: var(--PRIMARY-COLOR);
+    color: var(--WHITE);
+}
+
+.outline-secondary {
+    background: var(--WHITE);
+    border: 0.15rem solid var(--SECONDARY-COLOR);
+}
+
+.outline-secondary:hover {
+    background: var(--SECONDARY-COLOR);
+    color: var(--WHITE);
+}
+
+.outline-success {
+    background: var(--WHITE);
+    border: 0.15rem solid var(--SUCCESS-COLOR);
+    color: var(--SUCCESS-COLOR);
+}
+
+.outline-success:hover {
+    background: var(--SUCCESS-COLOR);
+    color: var(--WHITE);
+}
+
+.outline-warning {
+    background: var(--WHITE);
+    border: 0.15rem solid var(--WARNING-COLOR);
+    color: var(--WARNING-COLOR);
+}
+
+.outline-warning:hover {
+    background: var(--WARNING-COLOR);
+    color: var(--WHITE);
+}
+
+.outline-danger {
+    background: var(--WHITE);
+    border: 0.15rem solid var(--DANGER-COLOR);
+    color: var(--DANGER-COLOR);
+}
+
+.outline-danger:hover {
+    background: var(--DANGER-COLOR);
+    color: var(--WHITE);
+}
+
+
+/*button with icons*/
+.icon {
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.button-icons {
+    padding: 0.5rem 1rem;
+    gap: 5px;
+    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*link button*/
+.button-link {
+    border: none;
+    background: none;
+    color: var(--PRIMARY-COLOR);
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.button-link:hover {
+    text-decoration-thickness: 2px;
+}
+
+
+/*floating action button*/
+.fab {
+    width: 3rem;
+    height: 3rem;
+    padding: 1rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fab:active {
+    background: var(--PRIMARY-COLOR);
+}
+
+
+/*buttons with only icon*/
+.icon-only-button {
+    min-width: max-content;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-only-button:active {
+    background: var(--PRIMARY-COLOR);
+}

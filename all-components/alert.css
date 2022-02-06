@@ -1,0 +1,57 @@
+@import url('./utilities.css');
+
+
+/*common alert styling*/
+.alert {
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    height: 3rem;
+    width: 80%;
+    border-radius: 0.65rem;
+    background: var(--WHITE);
+    
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .alert-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+
+  /*alert simple*/
+  .primary-simple {
+    background: var(--PRIMARY-COLOR);
+  }
+  
+  .success-simple{
+      background: var(--SUCCESS-COLOR);
+  }
+
+  .warning-simple {
+    background: var(--WARNING-COLOR);
+  }
+
+  .danger-simple {
+      background: var(--DANGER-COLOR);
+  }
+
+  
+  /*alert outline*/
+  .success-outline {
+      border: 2px solid var(--SUCCESS-COLOR);
+      color: var(--SUCCESS-COLOR);
+  }
+
+  .warning-outline {
+    border: 2px solid var(--WARNING-COLOR);
+    color: var(--WARNING-COLOR);
+  }
+
+  .danger-outline {
+    border: 2px solid var(--DANGER-COLOR);
+    color: var(--DANGER-COLOR);
+  }

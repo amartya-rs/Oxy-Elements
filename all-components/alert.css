@@ -23,6 +23,10 @@
 
 
   /*alert simple*/
+  .primary-simple {
+    background: var(--PRIMARY-COLOR);
+  }
+  
   .success-simple{
       background: var(--SUCCESS-COLOR);
   }
@@ -32,7 +36,7 @@
   }
 
   .danger-simple {
-      background: var(--RED);
+      background: var(--DANGER-COLOR);
   }
 
   
@@ -48,6 +52,6 @@
   }
 
   .danger-outline {
-    border: 2px solid var(--RED);
-    color: var(--RED);
+    border: 2px solid var(--DANGER-COLOR);
+    color: var(--DANGER-COLOR);
   }

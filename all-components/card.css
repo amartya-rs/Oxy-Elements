@@ -1,0 +1,201 @@
+@import url('./utilities.css');
+
+
+/*simple text card*/
+.text-card {
+    display: inline-block;
+    background: var(--PRIMARY-BG);
+    border-radius: 10px;
+    width: 20rem;
+    padding: 1rem;
+}
+
+.text-card h5 {
+    border-bottom: 1px solid var(--PRIMARY-COLOR);
+}
+
+.text-card p {
+    padding-top: 1rem;
+}
+
+.text-card:hover {
+    box-shadow: 0 0 10px 2px var(--GREY);
+}
+
+
+/*card-with-badge*/
+.card-badge {
+    object-fit: cover;
+    width: 3rem;
+
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+
+/*common styling*/
+.card {
+    background: var(--PRIMARY-BG);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 1rem;
+    gap: 1rem;
+
+    display: inline-flex;
+    position: relative;
+}
+
+.card-content {
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.card-img {
+    border-radius: 6px;
+}
+
+.shadow {
+    box-shadow: 0 0 10px 5px var(--GREY);
+}
+
+.price-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    gap: 10px;
+}
+
+.discount-text {
+    font-size: 1.1rem;
+    color: var(--PRIMARY-COLOR);
+}
+
+/*vertical card*/
+.vertical {
+    width: 17rem;
+    height: max-content;
+    flex-direction: column;
+}
+
+
+/*horizontal card*/
+.horizontal {
+    width: 40rem;
+    height: 20rem;
+    flex-direction: row;
+}
+
+.horizontal .primary {
+    margin-top: auto;
+}
+
+.horizontal .card-content {
+    flex-grow: 1;
+}
+
+.horizontal .card-content .button {
+    width: 100%;
+}
+
+.horizontal .card-img {
+    object-fit: cover;
+    width: 45%;
+    height: auto;
+}
+
+
+/*card with dismiss*/
+.text-card {
+    background: var(--PRIMARY-BG);
+    border-radius: 10px;
+    width: 20rem;
+    padding: 1rem;
+    cursor: default;
+    position: relative;
+}
+
+.corner-button {
+    border: none;
+    padding: 0.35rem;
+    display: inline-flex;
+    border-radius: 50%;
+    cursor: pointer;
+
+    position: absolute;
+    top: 0.65rem;
+    right: 0.65rem;
+}
+
+.corner-button:hover {
+    background: var(--PRIMARY-BUTTON-HOVER);
+}
+
+
+/*social media card with dismiss*/
+.card-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ .card-footer button {
+    font-size: 1rem;
+}
+
+
+/*cards with overlay*/
+.overlay {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--CARD-OVERLAY);
+}
+
+.overlay-img {
+    object-fit: cover;
+    width: 10rem;
+    height: 7rem;
+}
+
+
+/*card with quantity element*/
+.cart-quantity {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px
+}
+
+.cart-quantity button {
+    height: 1.5rem;
+    width: 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    border: 1px solid var(--PRIMARY-COLOR);
+    color: var(--PRIMARY-COLOR);
+    background-color: var(--WHITE);
+    cursor: pointer;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity-input {
+    width: 2.5rem;
+    height: 1.5rem;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--PRIMARY-COLOR);
+    text-align: center;
+}

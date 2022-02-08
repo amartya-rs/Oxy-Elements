@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700&display=swap');
+@import url('/utilities/typography.css');
+@import url('/utilities/padding.css');
+@import url('/utilities/margin.css');
+
+
 :root {
     --PRIMARY-COLOR: rgb(145, 55, 135);
     --SECONDARY-COLOR: rgb(0,0,0);
@@ -10,10 +16,14 @@
     --DANGER-COLOR: rgb(215, 50, 50);
 
     --PRIMARY-HOVER: rgb(175, 70, 160);
-    --SECONDARY-HOVER: rgb(40, 40, 40);
+    --SECONDARY-HOVER: rgb(50, 50, 50);
     --SUCCESS-HOVER: rgb(96, 215, 96);
     --WARNING-HOVER: rgb(255, 197, 57);
     --DANGER-HOVER: rgb(223, 89, 89);
+    --PRIMARY-BUTTON-HOVER: rgba(221, 186, 217, 0.95);
+
+    --PRIMARY-BG: rgba(145, 55, 135, 0.2);
+    --CARD-OVERLAY: rgba(150, 150, 150, 0.75);
 }
 
 

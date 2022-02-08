@@ -1,0 +1,34 @@
+@import url('./utilities.css');
+
+
+.res-img {
+    width: 100%;
+    height: auto;
+}
+
+.round-img {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.square-img {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/*image sizes*/
+.sm-img {
+    height: 5rem;
+    width: 5rem;
+}
+
+.md-img {
+    height: 8.75rem;
+    width: 8.75rem;
+}
+
+.lg-img {
+    height: 12.5rem;
+    width: 12.5rem;
+}

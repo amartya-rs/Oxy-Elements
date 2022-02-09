@@ -1,0 +1,65 @@
+@import url('./utilities.css');
+
+
+/*text field styling*/
+.text-input {
+    padding: 5px 12px;
+    width: 80%;
+    height: 2rem;
+    border-radius: 6px;
+    border: 1px solid var(--GREY);
+}
+
+.text-input:focus {
+    border: none;
+    outline: 2px solid var(--PRIMARY-COLOR);
+}
+
+.success-input {
+    outline: 2px solid var(--SUCCESS-COLOR);
+}
+
+.warning-input {
+    outline: 2px solid var(--WARNING-COLOR);
+}
+
+.danger-input {
+    outline: 2px solid var(--DANGER-COLOR);
+}
+
+
+/*radio, checkbox and range styling*/
+input[type='radio'], input[type='checkbox']{
+    width: 1rem;
+    height: 1rem;
+    accent-color: var(--PRIMARY-COLOR);
+}
+
+input[type='range'] {
+    accent-color: var(--PRIMARY-COLOR);
+}
+
+
+/*input elements container*/
+.input-wrapper {
+    width: 28rem;
+    height: max-content;
+    border: 2px solid var(--PRIMARY-COLOR);
+    border-radius: 10px;
+    padding: 1.5rem 3rem;
+    box-shadow: 0 0 10px 5px var(--GREY);
+
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;    
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+

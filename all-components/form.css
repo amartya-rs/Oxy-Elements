@@ -1,0 +1,58 @@
+@import url('./utilities.css');
+
+
+/*form styling*/
+.auth-form {
+    border: 1px solid var(--PRIMARY-COLOR);
+    box-shadow: 0 0 10px 5px var(--GREY);
+    border-radius: 10px;
+    width: 33rem;
+    height: max-content;
+    padding: 2rem;
+
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+}
+
+.form-field input {
+    margin-top: 4px;
+}
+
+
+/*form contents*/
+.form-field {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 1.25rem;
+
+    width: 22rem;
+    height: max-content;
+}
+
+.form-header {
+    text-align: center;
+}
+
+.form-footer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.form-footer a {
+    font-size: 0.7rem;
+    text-decoration: underline var(--PRIMARY-COLOR);
+    text-underline-offset: 2px;
+}
+
+.form-footer a:hover {
+    text-decoration-thickness: 2px;
+}
+
+.form-footer a:active {
+    color: var(--SECONDARY-COLOR);
+}
+

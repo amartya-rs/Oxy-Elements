@@ -1,0 +1,82 @@
+@import url('./utilities.css');
+
+
+/*main navigation styling*/
+.main-nav {
+    padding: 0 1.5rem;
+    background: var(--PRIMARY-COLOR);
+    width: 100%;
+    height: 4.5rem;
+    box-shadow: 0 0 10px 5px var(--GREY);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    font-family: cursive;
+    margin-left: 3rem;
+    color: var(--WHITE);
+}
+
+.main-nav a {
+    color: var(--WHITE);
+}
+
+.nav-icon {
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+
+/*links inside navigation*/
+.link-wrapper {
+    cursor: pointer;
+
+    display: inline-flex;
+    align-items: center;
+    flex-basis: max-content;
+    gap: 1rem;
+}
+
+.link {
+    padding: 0 10px;
+}
+
+.link:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.icon-link {
+    background: inherit;
+    border: none;
+    cursor: pointer;
+    width: 2.65rem;
+    height: 2.65rem;
+    border-radius: 50%;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-link:hover {
+    background: var(--PRIMARY-HOVER);
+}
+
+.icon-link:active {
+    background-color: var(--PRIMARY-COLOR);
+}
+
+
+/*search bar*/
+.search-bar {
+    flex-basis: 30rem;
+}
+
+.search-bar input:focus {
+    border: 2px solid var(--PRIMARY-COLOR);
+    outline: 1px solid var(--WHITE);
+}

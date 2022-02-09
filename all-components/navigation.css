@@ -37,7 +37,7 @@
     display: inline-flex;
     align-items: center;
     flex-basis: max-content;
-    gap: 1rem;
+    gap: 10px;
 }
 
 .link {
@@ -50,11 +50,9 @@
 }
 
 .icon-link {
-    background: inherit;
-    border: none;
     cursor: pointer;
-    width: 2.65rem;
-    height: 2.65rem;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
 
     display: inline-flex;

@@ -1,0 +1,49 @@
+@import url('./utilities.css');
+
+
+/*common toast styling*/
+.toast {
+    padding: 0 1.5rem;
+    width: max-content;
+    height: 3rem;
+    border-radius: 5px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+
+    z-index: 5;
+    position: fixed;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 1rem;
+}
+
+.msg {
+    color: var(--WHITE);
+    font-size: 1rem;
+}
+
+.toast-button {
+    padding: 5px;
+    font-size: 1rem;
+    border: none;
+    background: inherit;
+    cursor: pointer;
+}
+
+
+/*variation*/
+.toast-danger {
+    background: var(--DANGER-COLOR);
+}
+
+.toast-success {
+    background: var(--SUCCESS-COLOR);
+}
+
+.toast-info {
+    background: var(--PRIMARY-COLOR);
+}

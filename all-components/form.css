@@ -4,6 +4,7 @@
 /*form styling*/
 .auth-form {
     border: 1px solid var(--PRIMARY-COLOR);
+    background: var(--WHITE);
     box-shadow: 0 0 10px 5px var(--GREY);
     border-radius: 10px;
     width: 33rem;
@@ -43,6 +44,7 @@
 }
 
 .form-footer a {
+    min-width: max-content;
     font-size: 0.7rem;
     text-decoration: underline var(--PRIMARY-COLOR);
     text-underline-offset: 2px;

@@ -5,555 +5,1341 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./docs.css">
     <link rel="stylesheet" href="/all-components/components.css">
+    <link rel="stylesheet" href="./docs.css">
+    <link rel="stylesheet" href="/utilities/prism.css">
     <title>Oxy Elements | Docs</title>
 </head>
 
 <body>
 
-    <!--------avatar-start-------->
-
-    <!--circle-avatar-->
-    <img class='avatar-circle avatar-sm' src="/assets/avatar.jpg" alt="avatar">
-    <img class='avatar-circle avatar-md' src="/assets/avatar.jpg" alt="avatar">
-    <img class='avatar-circle avatar-lg' src="/assets/avatar.jpg" alt="avatar">
-
-    <!--square-avatar-->
-    <img class='avatar-square avatar-sm' src="/assets/avatar.jpg" alt="avatar">
-    <img class='avatar-square avatar-md' src="/assets/avatar.jpg" alt="avatar">
-    <img class='avatar-square avatar-lg' src="/assets/avatar.jpg" alt="avatar">
-
-    <!--------avatar-end-------->
-
-
-    <!----------Badge-start---------->
-
-    <!--small-avatar-with-status-badge-->
-    <div class='badge-container'>
-        <img class='avatar-circle avatar-sm' src="/assets/avatar.jpg" alt="avatar small">
-        <div class='status-badge online'></div>
-    </div>
-
-    <div class='badge-container'>
-        <img class='avatar-circle avatar-sm' src="/assets/avatar.jpg" alt="avatar small">
-        <div class='status-badge offline'></div>
-    </div>
-
-    <div class='badge-container'>
-        <img class='avatar-circle avatar-sm' src="/assets/avatar.jpg" alt="avatar small">
-        <div class='status-badge dnd'></div>
-    </div>
-
-
-    <!--medium-avatar-with-status-badge-->
-    <div class='badge-container'>
-        <img class='avatar-circle avatar-md' src="/assets/avatar.jpg" alt="avatar small">
-        <div class='status-badge online'></div>
-    </div>
-
-    <div class='badge-container'>
-        <img class='avatar-circle avatar-md' src="/assets/avatar.jpg" alt="avatar small">
-        <div class='status-badge offline'></div>
-    </div>
-
-    <div class='badge-container'>
-        <img class='avatar-circle avatar-md' src="/assets/avatar.jpg" alt="avatar small">
-        <div class='status-badge dnd'></div>
-    </div>
-
-
-    <!--icon-with-number-badge-->
-    <div class='badge-container'>
-        <img class='badge-icon' src='/assets/cart-black.svg'>
-        <div class='number-badge dnd'>5</div>
-    </div>
-
-    <!----------Badge-end---------->
-
-
-    <!----------alert-start---------->
-
-    <!--alert-simple-->
-    <div class='alert success-simple'>
-        <img class='alert-icon' src="/assets/success-icon.svg" alt="success icon">
-        <span>Success Alert !</span>
-    </div>
-
-    <div class='alert warning-simple'>
-        <img class='alert-icon' src="/assets/warning-icon.svg" alt="success icon">
-        <span>Warning Alert !</span>
-    </div>
-
-    <div class='alert danger-simple'>
-        <img class='alert-icon' src="/assets/danger-icon.svg" alt="success icon">
-        <span>Danger Alert !</span>
-    </div>
-
-
-    <!--alert-outline-->
-    <div class='alert success-outline'>
-        <img class='alert-icon' src="/assets/success-icon-green.svg" alt="success icon">
-        <span>Success Alert !</span>
-    </div>
-
-    <div class='alert warning-outline'>
-        <img class='alert-icon' src="/assets/warning-icon-orange.svg" alt="success icon">
-        <span>Warning Alert !</span>
-    </div>
-
-    <div class='alert danger-outline'>
-        <img class='alert-icon' src="/assets/danger-icon-red.svg" alt="success icon">
-        <span>Danger Alert !</span>
-    </div>
-
-    <!----------alert-end---------->
-
-
-    <!----------button-start---------->
-
-    <!--button-solid-->
-    <button class='button primary'>PRIMARY</button>
-    <button class='button secondary'>SECONDARY</button>
-    <button class='button success'>SUCCESS</button>
-    <button class='button warning'>WARNING</button>
-    <button class='button danger'>DANGER</button>
-
-    <button class='button primary round-edge'>PRIMARY</button>
-    <button class='button secondary round-edge'>SECONDARY</button>
-    <button class='button success round-edge'>SUCCESS</button>
-    <button class='button warning round-edge'>WARNING</button>
-    <button class='button danger round-edge'>DANGER</button>
-
-    <!--button-outline-->
-    <button class='button outline-primary'>PRIMARY</button>
-    <button class='button outline-secondary'>SECONDARY</button>
-    <button class='button outline-success'>SUCCESS</button>
-    <button class='button outline-warning'>WARNING</button>
-    <button class='button outline-danger'>DANGER</button>
-
-    <button class='button outline-primary round-edge'>PRIMARY</button>
-    <button class='button outline-secondary round-edge'>SECONDARY</button>
-    <button class='button outline-success round-edge'>SUCCESS</button>
-    <button class='button outline-warning round-edge'>WARNING</button>
-    <button class='button outline-danger round-edge'>DANGER</button>
-
-    <!--button-with-icon-->
-    <button class='button button-icons primary'> <img class='icon' src="/assets/cart.svg" alt="cart icon"><span>ADD TO CART</span></button>
-
-    <button class='button button-icons danger'> <img class='icon' src="/assets/trash.svg" alt="cart icon"><span>DELETE</span></button>
-
-    <button class='button button-icons primary round-edge'> <img class='icon' src="/assets/cart.svg" alt="cart icon"><span>ADD TO CART</span></button>
-
-    <button class='button button-icons danger round-edge'> <img class='icon' src="/assets/trash.svg" alt="cart icon"><span>DELETE</span></button>
-
-    <!--link-button-->
-    <button class='button-link'>Link button</button>
-
-    <!--icon-only-button-->
-    <button class='button icon-only-button primary'><img icon src='/assets/cart.svg'></button>
-
-    <!--floating-action-button-->
-    <button class='fab primary'><img src="/assets/arrow-up.svg" alt="arrow up img"></button>
-    <button class='fab primary'><img src="/assets/plus.svg" alt="plus img"></button>
-
-    <!----------button-end---------->
-
-
-    <!----------card-start---------->
-
-    <!--text-only-card-->
-    <div class='text-card'>
-        <h5>Hip-hop Intro</h5>
-        <p>
-            Hip hop or hip-hop is a culture and art movement that was created by African Americans, Latino
-            Americans and Caribbean Americans in the Bronx, New York City. The origin of the name is often
-            disputed. It is also argued as to whether hip hop started in the South or West Bronx.
-        </p>
-    </div>
-
-    <!--card-with-dismiss-->
-    <div class='text-card'>
-        <h5>Hip-hop Intro</h5>
-        <button class='corner-button'><img src="/assets/close-icon.svg" alt="close icon"></button>
-        <p>
-            Hip hop or hip-hop is a culture and art movement that was created by African Americans, Latino
-            Americans and Caribbean Americans in the Bronx, New York City. The origin of the name is often
-            disputed. It is also argued as to whether hip hop started in the South or West Bronx.
-        </p>
-    </div>
-
-    <div class='card vertical'>
-        <img class='card-img' src='/assets/social-media-card-img.jpg' alt='card img'>
-        <button class='corner-button'><img src="/assets/close-icon.svg" alt="close icon"></button>
-        <div class='card-content'>
-            <h6>Our Changing Planet</h6>
-            by Kurt Wagner
-            <p class='p-md'>
-                Our planet is undergoing the biggest changes today.
-            </p>
-        </div>
-        <div class='card-footer'>
-            <button class='button-link' href=''>READ</button>
-            <button class='button-link' href=''>BOOKMARK</button>
-        </div>
-    </div>
-
-    <!--card-vertical-->
-    <div class='card vertical'>
-        <img class='card-image' src='/assets/card-img.jpg'>
-        <button class='corner-button'><img src="/assets/heart.svg" alt="heart icon"></button>
-        <div class='card-content'>
-            <h6 class='font-semibold'>Eminem Recovery T-shirt</h6>
-            <h5>₹ 1499</h5>
-            <button class='button secondary'><span>GO TO CART</span></button>
-        </div>
-    </div>
-
-    <div class='card vertical'>
-        <img class='card-img' src='/assets/card-img.jpg'>
-        <button class='corner-button'><img src="/assets/heart.svg" alt="heart icon"></button>
-        <div class='card-content'>
-            <h6 class='font-semibold'>Eminem Recovery T-shirt</h6>
-            <h5>₹ 1499</h5>
-            <button class='button button-icons primary'> <img class='icon' src="/assets/cart.svg"
-                alt="cart icon"><span>ADD TO CART</span></button>
-        </div>
-    </div>
-
-    <!--card-horizontal-->
-    <div class='card horizontal'>
-        <img class='card-img' src='/assets/card-img.jpg'>
-        <button class='corner-button'><img src="/assets/heart.svg" alt="heart icon"></button>
-        <div class='card-content'>
-            <h6 class='font-semibold'>Eminem Recovery T-shirt</h6>
-            <P class='p-sm'>100% Cotton Machine wash warm, inside out with like colors, only use non-chlorine
-                bleach, tumble dry low, do not iron decoration</P>
-            <h5>₹ 1499</h5>
-            <button class='button button-icons primary'> <img class='icon' src="/assets/cart.svg"
-                alt="cart icon"><span>ADD TO CART</span></button>
-            <button class='button outline-secondary'>WISHLIST</button>
-        </div>
-    </div>
-
-    <div class='card horizontal'>
-        <img class='card-img' src='/assets/card-img.jpg'>
-        <button class='corner-button'><img src="/assets/heart.svg" alt="heart icon"></button>
-        <div class='card-content'>
-            <h6 class='font-semibold'>Eminem Recovery T-shirt</h6>
-            <P class='p-sm'>100% Cotton Machine wash warm, inside out with like colors, only use non-chlorine
-                bleach, tumble dry low, do not iron decoration</P>
-            <div class='price-wrapper'>
-                <h5>₹ 1499</h5>
-                <h6 class='strike-through'>₹ 2999</h6>
-                <h6 class='discount-text'>₹50% off </h6>
-            </div>
-            <div class='cart-quantity'>
-                <label for='quantity'>Quantity: </label>
-                <button class='font-medium'>+</button>
-                <input value ='4' class='quantity-input h6 font-normal' name='quantity'>
-                <button class='font-medium'>-</button>
-            </div>
-            <button class='button primary'><span>REMOVE FROM CART</span></button>
-            <button class='button outline-secondary'>WISHLIST</button>
-        </div>
-    </div>
-
-    <!--card-with-badge-->
-    <div class='card vertical'>
-        <img class='card-img' src='/assets/card-img.jpg'>
-        <img class='card-badge' src="/assets/discount-icon-2.svg" alt="discount icon">
-        <button class='corner-button'><img src="/assets/heart.svg" alt="heart icon"></button>
-        <div class='card-content'>
-            <h6 class='font-semibold'>Eminem Recovery T-shirt</h6>
-            <div class='price-wrapper'>
-                <h5>₹ 1499</h5>
-                <h6 class='strike-through'>₹ 2999</h6>
-            </div>
-            <button class='button button-icons primary'> <img class='icon' src="/assets/cart.svg"
-                alt="cart icon"><span>ADD TO CART</span></button>
-        </div>
-    </div>
-
-    <div class='card horizontal'>
-        <img class='card-img' src='/assets/card-img.jpg'>
-        <img class='card-badge' src="/assets/discount.svg" alt="discount icon">
-        <button class='corner-button'><img src="/assets/heart.svg" alt="heart icon"></button>
-        <div class='card-content'>
-            <h6 class='font-semibold'>Eminem Recovery T-shirt</h6>
-            <P class='p-sm'>100% Cotton Machine wash warm, inside out with like colors, only use non-chlorine
-                bleach, tumble dry low, do not iron decoration</P>
-            <div class='price-wrapper'>
-                <h5>₹ 1499</h5>
-                <h6 class='strike-through'>₹ 2999</h6>
-                <h6 class='discount-text'>₹50% off </h6>
-            </div>
-            <button class='button button-icons primary'> <img class='icon' src="/assets/cart.svg"
-                alt="cart icon"><span>ADD TO CART</span></button>
-            <button class='button outline-secondary'>WISHLIST</button>
-        </div>
-    </div>
-
-    <!--cards-with-overlay-->
-    <div class='card vertical'>
-        <img class='card-img' src='/assets/card-img.jpg'>
-        <button class='corner-button'><img src="/assets/heart.svg" alt="heart icon"></button>
-        <img class='card-badge' src="/assets/discount-icon-2.svg" alt="discount icon">
-        <div class='card-content'>
-            <h6 class='font-semibold'>Eminem Recovery T-shirt</h6>
-            <h5>₹ 1499</h5>
-            <button class='button button-icons primary'> <img class='icon' src="/assets/cart.svg"
-                alt="cart icon"><span>ADD TO CART</span></button>
-        </div>
-        <div class='overlay'><img class='overlay-img' src="/assets/sold-out-img.png" alt="sold out img"></div>
-    </div>
-
-    <!--card-with-shadow-->
-    <div class='card vertical shadow'>
-        <img class='card-img' src='/assets/card-img.jpg'>
-        <button class='corner-button'><img src="/assets/heart.svg" alt="heart icon"></button>
-        <div class='card-content'>
-            <h6 class='font-semibold'>Eminem Recovery T-shirt</h6>
-            <div class='price-wrapper'>
-                <h5>₹ 1499</h5>
-                <h6 class='strike-through'>₹ 2999</h6>
-            </div>
-            <button class='button button-icons primary'> <img class='icon' src="/assets/cart.svg"
-                alt="cart icon"><span>ADD TO CART</span></button>
-        </div>
-    </div>
-
-    <div class='card horizontal shadow'>
-        <img class='card-img' src='/assets/card-img.jpg'>
-        <button class='corner-button'><img src="/assets/heart.svg" alt="heart icon"></button>
-        <div class='card-content'>
-            <h6 class='font-semibold'>Eminem Recovery T-shirt</h6>
-            <P class='p-sm'>100% Cotton Machine wash warm, inside out with like colors, only use non-chlorine
-                bleach, tumble dry low, do not iron decoration</P>
-            <div class='price-wrapper'>
-                <h5>₹ 1499</h5>
-                <h6 class='strike-through'>₹ 2999</h6>
-                <h6 class='discount-text'>₹50% off </h6>
-            </div>
-            <button class='button button-icons primary'> <img class='icon' src="/assets/cart.svg"
-                alt="cart icon"><span>ADD TO CART</span></button>
-            <button class='button outline-secondary'>WISHLIST</button>
-        </div>
-    </div>
-
-    <!----------card-end---------->
-
-
-    <!-----responsive-image-start----->
-
-    <!--round-image-->
-    <img class='round-img sm-img' src="/assets/img-demo.jpg" alt="image">
-    <img class='round-img md-img' src="/assets/img-demo.jpg" alt="image">
-    <img class='round-img lg-img' src="/assets/img-demo.jpg" alt="image">
-
-    <!--square-image-->
-    <img class='square-img sm-img' src="/assets/img-demo.jpg" alt="image">
-    <img class='square-img md-img' src="/assets/img-demo.jpg" alt="image">
-    <img class='square-img lg-img' src="/assets/img-demo.jpg" alt="image">
-
-    <!--responsive-image-->
-    <img class='res-img' src="/assets/res-img-demo.jpg" alt="image">
-
-    <!-----responsive-image-end----->
-
-
-    <!----------input-start---------->
-
-    <!--text-input-->
-    <div class="input-group">
-        <label class='h6' for="text-input">Name</label>
-        <input class='text-input' type="text">
-    </div>
-    
-    <!--text-input-with-validation-->
-    <div class="input-group">
-        <label class='h6' for="success-input">Name</label>
-        <input class='text-input success-input' type="text">
-    </div>
-    <div class="input-group">
-        <label class='h6' for="warning-input">Name</label>
-        <input class='text-input warning-input' type="text">
-    </div>
-    <div class="input-group">
-        <label class='h6' for="danger-input">Name</label>
-        <input class='text-input danger-input' type="text">
-    </div>
-    
-    <!--radio-input-->
-    <div class="input-wrapper">
-        <h6>Rating</h6>
-        <div class="input-group">
-            <input class='rating-4' name="rating" type="radio">
-            <label for="rating-4">4 stars and above</label>
-        </div>
-        <div class="input-group">
-            <input class='rating-3' name="rating" type="radio">
-            <label for="rating-3">3 stars and above</label>
-        </div>
-        <div class="input-group">
-            <input class='rating-2' name="rating" type="radio">
-            <label for="rating-2">2 stars and above</label>
-        </div>
-        <div class="input-group">
-            <input class='rating-1' name="rating" type="radio">
-            <label for="rating-1">1 star and above</label>
-        </div>
-    </div>
-
-    <!--checkbox-input-->
-    <div class="input-wrapper">
-        <h6>Category</h6>
-        <div class="input-group">
-            <input name="category-1" type="checkbox">
-            <label for="category-1">Men's clothing</label>
-        </div>
-        <div class="input-group">
-            <input name="category-2" type="checkbox">
-            <label for="category-2">Women's clothing</label>
-        </div>
-        <div class="input-group">
-            <input name="category-3" type="checkbox">
-            <label for="category-3">Childrens clothing</label>
-        </div>
-    </div>
-
-    <!--slider-input-->
-    <input type="range" min="0" max="10" step="1" value="5">
-
-    <!----------input-end---------->
-
-
-    <!----------navigation-start--------->
-
+    <!--top-nav-bar-->
     <nav class="main-nav">
-        <a class="h5 brand" href="">dopeYard</a>
-        <div class='search-bar'>
-            <input class='text-input' type="text" placeholder="Search">
-        </div>
+        <h5 class="brand">OXY Elements</h5>
         <ul class="link-wrapper">
-            <li><a class="link" href="">Home</a></li>
-            <li><a class="link" href="">Products</a></li>
-            <li><a class='icon-link' href=""><img icon src='/assets/user.svg'></a></li>
-            <li><a class='icon-link' href=""><img icon src='/assets/heart-white.svg'></a></li>
-            <li><a class='icon-link' href=""><img icon src='/assets/cart.svg'></a></li>
+            <li class="link"><a href="/index.html">Home</a></li>
+            <li class="link"><a href="/pages/docs.html">Documentation</a></li>
+            <li class="icon-link"><a href="https://github.com/amartya-rs"><img class='nav-icon' src="/assets/github.svg"
+                        alt="github icon"></a></li>
+            <li class="icon-link"><a href="https://www.linkedin.com/in/amartyarajsaha"><img class='nav-icon'
+                        src="/assets/linkedin.svg" alt="linkedin icon"></a></li>
+            <li class="icon-link"><a href="https://twitter.com/amartyars"><img class='nav-icon'
+                        src="/assets/twitter.svg" alt="twitter icon"></a></li>
         </ul>
     </nav>
 
-    <!----------navigation-end--------->
+    <!--side-nav-bar-->
+    <aside class="px-4 py-1 my-2">
+        <h5>Get started</h5>
+        <ul class="side-nav font-medium">
+            <li><a href="#install">Installation</a> </li>
+            <li><a href="#colors">Colors</a></li>
+            <li><a href="#typography">Typography</a> </li>
+        </ul>
+        <h5 class="my-1">Components</h5>
+        <ul class="side-nav font-medium">
+            <li><a href="#avatar">Avatar</a> </li>
+            <li><a href="#alert">Alert</a></li>
+            <li><a href="#badge">Badge</a></li>
+            <li><a href="#button">Button</a></li>
+            <li><a href="#card">Card</a></li>
+            <li><a href="#image">Image</a></li>
+            <li><a href="#input">Input</a></li>
+            <li><a href="#form">Form</a></li>
+            <li><a href="#nav">Navigation</a></li>
+            <li><a href="#toast">Toast</a></li>
+            <li><a href="#grid">Simplified Grid</a></li>
+        </ul>
+    </aside>
 
+    <main class=" mx-8 p-2 my-2">
 
-    <!----------form-start---------->
-
-    <form class="auth-form">
-        <div class="form-header">
-            <h5>LOGIN</h5>
-            <p class='p-sm'>Please enter your email and password.</p>
-        </div>
-        <div class="form-field">
-            <div>
-                <label class='h6 font-medium' for="user-email">E-mail*</label>
-                <input class='text-input' type="email" name="user-email" placeholder="kanye@xyz.com">
+        <!-----installation-guide----->
+        <section id="install">
+            <h3>Installation</h3>
+            <p>
+                In order to introduce OXY Elements into your project, you just need to copy and paste the below link in
+                the &lt;head> tag of your html page, above all other style sheets. That's it now you are ready to build.
+            </p>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <link rel="stylesheet" href="https://oxyelements.netlify.app/all-components/components.css">
+                </script>
             </div>
-            <div>
-                <label class='h6 font-medium' for="user-password">Password*</label>
-                <input name='user-password' class='text-input' type="password" placeholder="***************">
+        </section>
+
+        <hr>
+
+        <!-----colors----->
+        <section id="colors">
+            <h3>Colors</h3>
+            <p>Below is the color palette, used by OXY Elements with their rgb-codes.</p>
+            <div class="component-container">
+                <div class="color">Primary <span>rgb(145, 55, 135)</span></div>
+                <div class="color">Secondary <span>rgb(0,0,0)</span></div>
+                <div class="color">Success <span>rgb(50, 200, 50)</span></div>
+                <div class="color">Warning <span>rgb(255, 180, 0)</span></div>
+                <div class="color">Danger <span>rgb(215, 50, 50)</span></div>
             </div>
-        </div>
-        <button class='button primary' type="submit">LOGIN</button>
-        <div class="form-footer">
-            <p class='p-sm'>Not a user yet?</p>
-            <a href="">Sign Up</a>
-        </div>
-    </form>
+        </section>
 
-    <form class="auth-form">
-        <div class="form-header">
-            <h5>SIGNUP</h5>
-            <p class='p-sm'>Please fill in your information below.</p>
-        </div>
-        <div class="form-field">
-            <div>
-                <label class='h6 font-medium' for="user-name">Name*</label>
-                <input name='user-name' class='text-input' type="text" placeholder="Kanye West">
+        <hr>
+
+        <!-----typography----->
+        <section id="typography">
+            <h3>Typography</h3>
+            <p>
+                Below are the text utilities
+            </p>
+            <h5 class="my-2">Heading</h5>
+            <div class="component-container typo-container">
+                <h1>H1 Heading</h1>
+                <h2>H2 Heading</h2>
+                <h3>H3 Heading</h3>
+                <h4>H4 Heading</h4>
+                <h5>H5 Heading</h5>
+                <h6>H6 Heading</h6>
             </div>
-            <div>
-                <label class='h6 font-medium' for="user-email">E-mail*</label>
-                <input class='text-input' type="email" name="user-email" placeholder="kanye@xyz.com">
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <h1> H1 Heading </h1>
+                    <h2> H2 Heading </h2>
+                    <h3> H3 Heading </h3>
+                    <h4> H4 Heading </h4>
+                    <h5> H5 Heading </h5>
+                    <h6> H6 Heading </h6>
+                </script>
             </div>
-            <div>
-                <label class='h6 font-medium' for="user-password">Password*</label>
-                <input name='user-password' class='text-input' type="password" placeholder="***************">
+            <h5 class="my-2">Paragraph text</h5>
+            <div class="component-container typo-container">
+                <p>Paragraph with regular font size</p>
+                <p class="p-xlg">Paragraph with extra large font</p>
+                <p class="p-lg">Paragraph with large font</p>
+                <p class="p-sm">Paragraph with small font</p>
             </div>
-        </div>
-        <button class='button primary' type="submit">SIGN UP</button>
-        <div class="form-footer">
-            <p class='p-sm'>Already a user?</p>
-            <a href="">Sign In</a>
-        </div>
-    </form>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <p>Paragraph with regular font size</p>
+                    <p class="p-xlg">Paragraph with extra large font</p>
+                    <p class="p-lg">Paragraph with large font</p>
+                    <p class="p-sm">Paragraph with small font</p>
+                </script>
+            </div>
+            <h5 class="my-2">Font weight</h5>
+            <div class="component-container typo-container">
+                <p class="font-thin">Paragraph with thin large weight</p>
+                <p class="font-light">Paragraph with light font weight</p>
+                <p class="font-normal">Paragraph with normal font weight</p>
+                <p class="font-medium">Paragraph with medium font weight</p>
+                <p class="font-semibold">Paragraph with semibold font weight</p>
+                <p class="font-bold">Paragraph with bold font weight</p>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <p class="font-thin">Paragraph with thin large weight</p>
+                    <p class="font-light">Paragraph with light font weight</p>
+                    <p class="font-normal">Paragraph with normal font weight</p>
+                    <p class="font-medium">Paragraph with medium font weight</p>
+                    <p class="font-semibold">Paragraph with semibold font weight</p>
+                    <p class="font-bold">Paragraph with bold font weight</p>
+                </script>
+            </div>
+        </section>
 
-    <!----------form-end---------->
+        <hr>
 
+        <!--------avatar-start-------->
+        <section id="avatar">
+            <h3>Avatar</h3>
+            <p>
+                Avatar can be used to show user's profile picture on profile information page or on navigation bar.
+            </p>
+            <div class="component-container">
+                <!--circle-avatar-->
+                <img class='avatar-circle avatar-sm' src="/assets/avatar.jpg" alt="avatar">
+                <img class='avatar-circle avatar-md' src="/assets/avatar.jpg" alt="avatar">
+                <img class='avatar-circle avatar-lg' src="/assets/avatar.jpg" alt="avatar">
 
-    <!----------toast-start---------->
+                <!--square-avatar-->
+                <img class='avatar-square avatar-sm' src="/assets/avatar.jpg" alt="avatar">
+                <img class='avatar-square avatar-md' src="/assets/avatar.jpg" alt="avatar">
+                <img class='avatar-square avatar-lg' src="/assets/avatar.jpg" alt="avatar">
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <!--circle-avatar-->
+                    <img class='avatar-circle avatar-sm' src="/assets/avatar.jpg" alt="avatar">
+                    <img class='avatar-circle avatar-md' src="/assets/avatar.jpg" alt="avatar">
+                    <img class='avatar-circle avatar-lg' src="/assets/avatar.jpg" alt="avatar">
 
-    <div class='toast toast-danger'>
-        <div class='msg'>Can't send photo. Retry in 5 seconds.</div>
-        <button class='icon-only-button toast-button font-semibold'>RETRY</button>
-        <button class='icon-only-button toast-button'><img src='/assets/close-icon.svg'></button>
-    </div>
+                    <!--square-avatar-->
+                    <img class='avatar-square avatar-sm' src="/assets/avatar.jpg" alt="avatar">
+                    <img class='avatar-square avatar-md' src="/assets/avatar.jpg" alt="avatar">
+                    <img class='avatar-square avatar-lg' src="/assets/avatar.jpg" alt="avatar">
+                </script>
+            </div>
+        </section>
+        <!--------avatar-end-------->
 
-    <div class='toast toast-success'>
-        <div class='msg'>Downloaded</div>
-        <button class='icon-only-button toast-button'><img src='/assets/close-icon.svg'></button>
-    </div>
-    
-    <div class='toast toast-info'>
-        <div class='msg'>Downloading</div>
-        <button class='icon-only-button toast-button'><img src='/assets/close-icon.svg'></button>
-    </div>
+        <hr>
 
-    <!----------toast-end---------->
-    
+        <!----------alert-start---------->
+        <section id="alert">
+            <h3>Alert</h3>
+            <p>
+                Alerts are used to attract user's attention for important information without interrupting the user's
+                flow.
+            </p>
+            <h5>Alert simple</h5>
+            <div class="component-container">
+                <!--alert-simple-->
+                <div class='alert success-simple'>
+                    <img class='alert-icon' src="/assets/success-icon.svg" alt="success icon">
+                    <span>Success Alert !</span>
+                </div>
 
-    <!-----simplified-grid-start----->
+                <div class='alert warning-simple'>
+                    <img class='alert-icon' src="/assets/warning-icon.svg" alt="success icon">
+                    <span>Warning Alert !</span>
+                </div>
 
-    <div class="grid-container">
-        <div class="grid-50-50">
-            <img class='res-img' src="/assets/res-img-demo.jpg" alt="image">
-            <img class='res-img' src="/assets/res-img-demo.jpg" alt="image">
-        </div>
-    </div>
+                <div class='alert danger-simple'>
+                    <img class='alert-icon' src="/assets/danger-icon.svg" alt="success icon">
+                    <span>Danger Alert !</span>
+                </div>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <!--alert-simple-->
+                    <div class='alert success-simple'>
+                        <img class='alert-icon' src="/assets/success-icon.svg" alt="success icon">
+                        <span>Success Alert !</span>
+                    </div>
 
-    <div class="grid-container">
-        <div class="grid-30-70">
-            <img class='res-img center-content' src="/assets/res-img-demo.jpg" alt="image">
-            <img class='res-img' src="/assets/res-img-demo.jpg" alt="image">
-        </div>
-    </div>
+                    <div class='alert warning-simple'>
+                        <img class='alert-icon' src="/assets/warning-icon.svg" alt="success icon">
+                        <span>Warning Alert !</span>
+                    </div>
 
-    <div class="grid-container">
-        <div class="grid-70-30">
-            <img class='res-img' src="/assets/res-img-demo.jpg" alt="image">
-            <img class='res-img center-content' src="/assets/res-img-demo.jpg" alt="image">
-        </div>
-    </div>
+                    <div class='alert danger-simple'>
+                        <img class='alert-icon' src="/assets/danger-icon.svg" alt="success icon">
+                        <span>Danger Alert !</span>
+                    </div>
+                </script>
+            </div>
+            <h5>Alert outline</h5>
+            <div class="component-container">
+                <!--alert-outline-->
+                <div class='alert success-outline'>
+                    <img class='alert-icon' src="/assets/success-icon-green.svg" alt="success icon">
+                    <span>Success Alert !</span>
+                </div>
 
-    <div class="grid-container">
-        <div class="grid-3-column">
-            <img class='res-img' src="/assets/res-img-demo.jpg" alt="image">
-            <img class='res-img' src="/assets/res-img-demo.jpg" alt="image">
-            <img class='res-img' src="/assets/res-img-demo.jpg" alt="image">
-        </div>
-    </div>
+                <div class='alert warning-outline'>
+                    <img class='alert-icon' src="/assets/warning-icon-orange.svg" alt="success icon">
+                    <span>Warning Alert !</span>
+                </div>
 
-    <!-----simplified-grid-end----->
-    
+                <div class='alert danger-outline'>
+                    <img class='alert-icon' src="/assets/danger-icon-red.svg" alt="success icon">
+                    <span>Danger Alert !</span>
+                </div>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <!--alert-outline-->
+                    <div class='alert success-outline'>
+                        <img class='alert-icon' src="/assets/success-icon-green.svg" alt="success icon">
+                        <span>Success Alert !</span>
+                    </div>
+
+                    <div class='alert warning-outline'>
+                        <img class='alert-icon' src="/assets/warning-icon-orange.svg" alt="success icon">
+                        <span>Warning Alert !</span>
+                    </div>
+
+                    <div class='alert danger-outline'>
+                        <img class='alert-icon' src="/assets/danger-icon-red.svg" alt="success icon">
+                        <span>Danger Alert !</span>
+                    </div>
+                </script>
+            </div>
+        </section>
+        <!----------alert-end---------->
+
+        <hr>
+
+        <!----------badge-start---------->
+        <section id="badge">
+            <h3>Badge</h3>
+            <p>
+                Badges are being used to display a notification count or status information.
+            </p>
+            <div class="component-container">
+                <!--small-avatar-with-status-badge-->
+                <div class='badge-container'>
+                    <img class='avatar-circle avatar-sm' src="/assets/avatar.jpg" alt="avatar small">
+                    <div class='status-badge online'></div>
+                </div>
+
+                <div class='badge-container'>
+                    <img class='avatar-circle avatar-sm' src="/assets/avatar.jpg" alt="avatar small">
+                    <div class='status-badge offline'></div>
+                </div>
+
+                <div class='badge-container'>
+                    <img class='avatar-circle avatar-sm' src="/assets/avatar.jpg" alt="avatar small">
+                    <div class='status-badge dnd'></div>
+                </div>
+
+                <!--medium-avatar-with-status-badge-->
+                <div class='badge-container'>
+                    <img class='avatar-circle avatar-md' src="/assets/avatar.jpg" alt="avatar small">
+                    <div class='status-badge online'></div>
+                </div>
+
+                <div class='badge-container'>
+                    <img class='avatar-circle avatar-md' src="/assets/avatar.jpg" alt="avatar small">
+                    <div class='status-badge offline'></div>
+                </div>
+
+                <div class='badge-container'>
+                    <img class='avatar-circle avatar-md' src="/assets/avatar.jpg" alt="avatar small">
+                    <div class='status-badge dnd'></div>
+                </div>
+
+                <!--icon-with-number-badge-->
+                <div class='badge-container'>
+                    <img class='badge-icon' src='/assets/cart-black.svg'>
+                    <div class='number-badge'>9</div>
+                </div>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <!--small-avatar-with-status-badge-->
+                    <div class='badge-container'>
+                        <img class='avatar-circle avatar-sm' src="/assets/avatar.jpg" alt="avatar small">
+                        <div class='status-badge online'></div>
+                    </div>
+
+                    <div class='badge-container'>
+                        <img class='avatar-circle avatar-sm' src="/assets/avatar.jpg" alt="avatar small">
+                        <div class='status-badge offline'></div>
+                    </div>
+
+                    <div class='badge-container'>
+                        <img class='avatar-circle avatar-sm' src="/assets/avatar.jpg" alt="avatar small">
+                        <div class='status-badge dnd'></div>
+                    </div>
+
+                    <!--medium-avatar-with-status-badge-->
+                    <div class='badge-container'>
+                        <img class='avatar-circle avatar-md' src="/assets/avatar.jpg" alt="avatar small">
+                        <div class='status-badge online'></div>
+                    </div>
+
+                    <div class='badge-container'>
+                        <img class='avatar-circle avatar-md' src="/assets/avatar.jpg" alt="avatar small">
+                        <div class='status-badge offline'></div>
+                    </div>
+
+                    <div class='badge-container'>
+                        <img class='avatar-circle avatar-md' src="/assets/avatar.jpg" alt="avatar small">
+                        <div class='status-badge dnd'></div>
+                    </div>
+
+                    <!--icon-with-number-badge-->
+                    <div class='badge-container'>
+                        <img class='badge-icon' src='/assets/cart-black.svg'>
+                        <div class='number-badge'>5</div>
+                    </div>
+                </script>
+            </div>
+        </section>
+        <!----------Badge-end---------->
+
+        <hr>
+
+        <!----------button-start---------->
+        <section id="button">
+            <h3>Button</h3>
+            <p>
+                Buttons are also known as call to action (CTA). Buttons allow users to take actions, and make choices, with a single tap. We have range of buttons from solid to icon only buttons.
+            </p>
+            <h5>Solid button</h5>
+            <div class="component-container">
+                <!--button-solid-->
+                <button class='button primary'>PRIMARY</button>
+                <button class='button secondary'>SECONDARY</button>
+                <button class='button success'>SUCCESS</button>
+                <button class='button warning'>WARNING</button>
+                <button class='button danger'>DANGER</button>
+
+                <button class='button primary round-edge'>PRIMARY</button>
+                <button class='button secondary round-edge'>SECONDARY</button>
+                <button class='button success round-edge'>SUCCESS</button>
+                <button class='button warning round-edge'>WARNING</button>
+                <button class='button danger round-edge'>DANGER</button>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <!--square-button-solid-->
+                    <button class='button primary'>PRIMARY</button>
+                    <button class='button secondary'>SECONDARY</button>
+                    <button class='button success'>SUCCESS</button>
+                    <button class='button warning'>WARNING</button>
+                    <button class='button danger'>DANGER</button>
+
+                    <!--round-button-solid-->
+                    <button class='button primary round-edge'>PRIMARY</button>
+                    <button class='button secondary round-edge'>SECONDARY</button>
+                    <button class='button success round-edge'>SUCCESS</button>
+                    <button class='button warning round-edge'>WARNING</button>
+                    <button class='button danger round-edge'>DANGER</button>
+                </script>
+            </div>
+            <h5>Oultline button</h5>
+            <div class="component-container">
+                <!--button-outline-->
+                <button class='button outline-primary'>PRIMARY</button>
+                <button class='button outline-secondary'>SECONDARY</button>
+                <button class='button outline-success'>SUCCESS</button>
+                <button class='button outline-warning'>WARNING</button>
+                <button class='button outline-danger'>DANGER</button>
+
+                <button class='button outline-primary round-edge'>PRIMARY</button>
+                <button class='button outline-secondary round-edge'>SECONDARY</button>
+                <button class='button outline-success round-edge'>SUCCESS</button>
+                <button class='button outline-warning round-edge'>WARNING</button>
+                <button class='button outline-danger round-edge'>DANGER</button>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <!--square-button-outline-->
+                    <button class='button outline-primary'>PRIMARY</button>
+                    <button class='button outline-secondary'>SECONDARY</button>
+                    <button class='button outline-success'>SUCCESS</button>
+                    <button class='button outline-warning'>WARNING</button>
+                    <button class='button outline-danger'>DANGER</button>
+
+                    <!--round-button-outline-->
+                    <button class='button outline-primary round-edge'>PRIMARY</button>
+                    <button class='button outline-secondary round-edge'>SECONDARY</button>
+                    <button class='button outline-success round-edge'>SUCCESS</button>
+                    <button class='button outline-warning round-edge'>WARNING</button>
+                    <button class='button outline-danger round-edge'>DANGER</button>
+                </script>
+            </div>
+            <h5>Icon button</h5>
+            <div class="component-container">
+                <!--button-with-icon-->
+                <button class='button button-icons primary'> <img class='icon' src="/assets/cart.svg"
+                        alt="cart icon"><span>ADD TO CART</span></button>
+
+                <button class='button button-icons danger'> <img class='icon' src="/assets/trash.svg"
+                        alt="cart icon"><span>DELETE</span></button>
+
+                <button class='button button-icons primary round-edge'> <img class='icon' src="/assets/cart.svg"
+                        alt="cart icon"><span>ADD TO CART</span></button>
+
+                <button class='button button-icons danger round-edge'> <img class='icon' src="/assets/trash.svg"
+                        alt="cart icon"><span>DELETE</span></button>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <!--icon-button-square-->
+                    <button class='button button-icons primary'> <img class='icon' src="/assets/cart.svg"
+                            alt="cart icon"><span>ADD TO CART</span></button>
+
+                    <button class='button button-icons danger'> <img class='icon' src="/assets/trash.svg"
+                            alt="cart icon"><span>DELETE</span></button>
+
+                    <!--icon-button-round-->
+                    <button class='button button-icons primary round-edge'> <img class='icon' src="/assets/cart.svg"
+                            alt="cart icon"><span>ADD TO CART</span></button>
+
+                    <button class='button button-icons danger round-edge'> <img class='icon' src="/assets/trash.svg"
+                            alt="cart icon"><span>DELETE</span></button>
+                </script>
+            </div>
+            <h5>Link, icon-only & floating action button</h5>
+            <div class="component-container">
+                <!--link-button-->
+                <button class='button-link'>Link button</button>
+
+                <!--icon-only-button-->
+                <button class='button icon-only-button primary'><img icon src='/assets/cart.svg'></button>
+
+                <!--floating-action-button-->
+                <button class='fab primary'><img src="/assets/arrow-up.svg" alt="arrow up img"></button>
+                <button class='fab primary'><img src="/assets/plus.svg" alt="plus img"></button>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <!--link-button-->
+                    <button class='button-link'>Link button</button>
+
+                    <!--icon-only-button-->
+                    <button class='button icon-only-button primary'><img icon src='/assets/cart.svg'></button>
+
+                    <!--floating-action-button-->
+                    <button class='fab primary'><img src="/assets/arrow-up.svg" alt="arrow up img"></button>
+                    <button class='fab primary'><img src="/assets/plus.svg" alt="plus img"></button>
+                </script>
+            </div>
+        </section>
+        <!----------button-end---------->
+
+        <hr>
+
+        <!----------card-start---------->
+        <section id="card">
+            <h3>Card</h3>
+            <p>
+                Card are used to show user related data collectively, like product details.
+            </p>
+            <h5>Text only card</h5>
+            <div class="component-container">
+                <!--text-only-card-->
+                <div class='text-card'>
+                    <h5>Hip-hop Intro</h5>
+                    <p>
+                        Hip hop or hip-hop is a culture and art movement that was created by African Americans, Latino
+                        Americans and Caribbean Americans in the Bronx, New York City. The origin of the name is often
+                        disputed. It is also argued as to whether hip hop started in the South or West Bronx.
+                    </p>
+                </div>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <div class='text-card'>
+                        <h5>Hip-hop Intro</h5>
+                        <p>
+                            Hip hop or hip-hop is a culture and art movement that was created by African Americans, Latino
+                            Americans and Caribbean Americans in the Bronx, New York City. The origin of the name is often
+                            disputed. It is also argued as to whether hip hop started in the South or West Bronx.
+                        </p>
+                    </div>
+                </script>
+            </div>
+            <h5>Card with dismiss</h5>
+            <div class="component-container item-center">
+                <!--card-with-dismiss-->
+                <div class='text-card'>
+                    <h5>Hip-hop Intro</h5>
+                    <button class='corner-button'><img src="/assets/close-icon.svg" alt="close icon"></button>
+                    <p>
+                        Hip hop or hip-hop is a culture and art movement that was created by African Americans, Latino
+                        Americans and Caribbean Americans in the Bronx, New York City. The origin of the name is often
+                        disputed. It is also argued as to whether hip hop started in the South or West Bronx.
+                    </p>
+                </div>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <!--card-with-dismiss-->
+                    <div class='text-card'>
+                        <h5>Hip-hop Intro</h5>
+                        <button class='corner-button'><img src="/assets/close-icon.svg" alt="close icon"></button>
+                        <p>
+                            Hip hop or hip-hop is a culture and art movement that was created by African Americans, Latino
+                            Americans and Caribbean Americans in the Bronx, New York City. The origin of the name is often
+                            disputed. It is also argued as to whether hip hop started in the South or West Bronx.
+                        </p>
+                    </div>
+                </script>
+            </div>
+            <h5>Vertical card</h5>
+            <div class="component-container">
+                <!--card-vertical-->
+                <div class='card vertical'>
+                    <img class='card-img' src='/assets/social-media-card-img.jpg' alt='card img'>
+                    <div class='card-content'>
+                        <h6>Our Changing Planet</h6>
+                        by Kurt Wagner
+                        <p class='p-md'>
+                            Our planet is undergoing the biggest changes today.
+                        </p>
+                    </div>
+                    <div class='card-footer'>
+                        <button class='button-link' href=''>READ</button>
+                        <button class='button-link' href=''>BOOKMARK</button>
+                    </div>
+                </div>
+
+                <div class='card vertical'>
+                    <img class='card-img' src='/assets/card-img.jpg'>
+                    <button class='corner-button'><img src="/assets/heart.svg" alt="heart icon"></button>
+                    <div class='card-content'>
+                        <h6 class='font-semibold'>Eminem Recovery T-shirt</h6>
+                        <h5>₹ 1499</h5>
+                        <button class='button button-icons primary'> <img class='icon' src="/assets/cart.svg"
+                                alt="cart icon"><span>ADD TO CART</span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <!--card-vertical-->
+                    <div class='card vertical'>
+                        <img class='card-img' src='/assets/social-media-card-img.jpg' alt='card img'>
+                        <div class='card-content'>
+                            <h6>Our Changing Planet</h6>
+                            by Kurt Wagner
+                            <p class='p-md'>
+                                Our planet is undergoing the biggest changes today.
+                            </p>
+                        </div>
+                        <div class='card-footer'>
+                            <button class='button-link' href=''>READ</button>
+                            <button class='button-link' href=''>BOOKMARK</button>
+                        </div>
+                    </div>
+                    
+                    <div class='card vertical'>
+                        <img class='card-img' src='/assets/card-img.jpg'>
+                        <button class='corner-button'><img src="/assets/heart.svg" alt="heart icon"></button>
+                        <div class='card-content'>
+                            <h6 class='font-semibold'>Eminem Recovery T-shirt</h6>
+                            <h5>₹ 1499</h5>
+                            <button class='button button-icons primary'> <img class='icon' src="/assets/cart.svg" alt="cart icon"><span>ADD TO CART</span></button>
+                        </div>
+                    </div>
+                </script>
+            </div>
+            <h5>Horizontal card</h5>
+            <div class="component-container">
+                <!--card-horizontal-->
+                <div class='card horizontal'>
+                    <img class='card-img' src='/assets/card-img.jpg'>
+                    <button class='corner-button'><img src="/assets/heart.svg" alt="heart icon"></button>
+                    <div class='card-content'>
+                        <h6 class='font-semibold'>Eminem Recovery T-shirt</h6>
+                        <p class='p-sm'>100% Cotton Machine wash warm, inside out with like colors, only use
+                            non-chlorine bleach, tumble dry low, do not iron decoration</p>
+                        <h5>₹ 1499</h5>
+                        <button class='button button-icons primary'> <img class='icon' src="/assets/cart.svg"
+                                alt="cart icon"><span>ADD TO CART</span></button>
+                        <button class='button outline-secondary'>WISHLIST</button>
+                    </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <!--card-horizontal-->
+                    <div class='card horizontal'>
+                        <img class='card-img' src='/assets/card-img.jpg'>
+                        <button class='corner-button'><img src="/assets/heart.svg" alt="heart icon"></button>
+                        <div class='card-content'>
+                            <h6 class='font-semibold'>Eminem Recovery T-shirt</h6>
+                            <p class='p-sm'>100% Cotton Machine wash warm, inside out with like colors,
+                                only use non-chlorine bleach, tumble dry low, do not iron decoration</p>
+                            <h5>₹ 1499</h5>
+                            <button class='button button-icons primary'> <img class='icon' src="/assets/cart.svg" alt="cart icon"><span>ADD TO CART</span></button>
+                            <button class='button outline-secondary'>WISHLIST</button>
+                        </div>
+                    </div>
+                </script>
+            </div>
+            <div class="component-container ">
+                <div class='card horizontal'>
+                    <img class='card-img' src='/assets/card-img.jpg'>
+                    <button class='corner-button'><img src="/assets/heart.svg" alt="heart icon"></button>
+                    <div class='card-content'>
+                        <h6 class='font-semibold'>Eminem Recovery T-shirt</h6>
+                        <P class='p-sm'>100% Cotton Machine wash warm, inside out with like colors, only use
+                            non-chlorine
+                            bleach, tumble dry low, do not iron decoration</p>
+                        <div class='price-wrapper'>
+                            <h5>₹ 1499</h5>
+                            <h6 class='strike-through'>₹ 2999</h6>
+                            <h6 class='discount-text'>₹50% off </h6>
+                        </div>
+                        <div class='cart-quantity'>
+                            <label for='quantity'>Quantity: </label>
+                            <button class='font-medium'>+</button>
+                            <input value='4' class='quantity-input h6 font-normal' name='quantity'>
+                            <button class='font-medium'>-</button>
+                        </div>
+                        <button class='button primary'><span>REMOVE FROM CART</span></button>
+                        <button class='button outline-secondary'>WISHLIST</button>
+                    </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <!--card-horizontal-->
+                    <div class='card horizontal'>
+                        <img class='card-img' src='/assets/card-img.jpg'>
+                        <button class='corner-button'><img src="/assets/heart.svg" alt="heart icon"></button>
+                        <div class='card-content'>
+                            <h6 class='font-semibold'>Eminem Recovery T-shirt</h6>
+                            <p class='p-sm'>100% Cotton Machine wash warm, inside out with like colors, only use
+                                non-chlorine
+                                bleach, tumble dry low, do not iron decoration</p>
+                            <div class='price-wrapper'>
+                                <h5>₹ 1499</h5>
+                                <h6 class='strike-through'>₹ 2999</h6>
+                                <h6 class='discount-text'>₹50% off </h6>
+                            </div>
+                            <div class='cart-quantity'>
+                                <label for='quantity'>Quantity: </label>
+                                <button class='font-medium'>+</button>
+                                <input value='4' class='quantity-input h6 font-normal' name='quantity'>
+                                <button class='font-medium'>-</button>
+                            </div>
+                            <button class='button primary'><span>REMOVE FROM CART</span></button>
+                            <button class='button outline-secondary'>WISHLIST</button>
+                        </div>
+                    </div>
+                </script>
+            </div>
+            <h5>Card with badge</h5>
+            <div class="component-container">
+                <!--card-with-badge-->
+                <div class='card vertical'>
+                    <img class='card-img' src='/assets/card-img.jpg'>
+                    <img class='card-badge' src="/assets/discount-icon-2.svg" alt="discount icon">
+                    <button class='corner-button'><img src="/assets/heart.svg" alt="heart icon"></button>
+                    <div class='card-content'>
+                        <h6 class='font-semibold'>Eminem Recovery T-shirt</h6>
+                        <div class='price-wrapper'>
+                            <h5>₹ 1499</h5>
+                            <h6 class='strike-through'>₹ 2999</h6>
+                        </div>
+                        <button class='button button-icons primary'> <img class='icon' src="/assets/cart.svg"
+                                alt="cart icon"><span>ADD TO CART</span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <!--card-with-badge-->
+                    <div class='card vertical'>
+                        <img class='card-img' src='/assets/card-img.jpg'>
+                        <img class='card-badge' src="/assets/discount-icon-2.svg" alt="discount icon">
+                        <button class='corner-button'><img src="/assets/heart.svg" alt="heart icon"></button>
+                        <div class='card-content'>
+                            <h6 class='font-semibold'>Eminem Recovery T-shirt</h6>
+                            <div class='price-wrapper'>
+                                <h5>₹ 1499</h5>
+                                <h6 class='strike-through'>₹ 2999</h6>
+                            </div>
+                            <button class='button button-icons primary'> <img class='icon' src="/assets/cart.svg" alt="cart icon"><span>ADD TO CART</span></button>
+                        </div>
+                    </div>
+                </script>
+            </div>
+            <div class="component-container">
+                <div class='card horizontal'>
+                    <img class='card-img' src='/assets/card-img.jpg'>
+                    <img class='card-badge' src="/assets/discount.svg" alt="discount icon">
+                    <button class='corner-button'><img src="/assets/heart.svg" alt="heart icon"></button>
+                    <div class='card-content'>
+                        <h6 class='font-semibold'>Eminem Recovery T-shirt</h6>
+                        <p class='p-sm'>100% Cotton Machine wash warm, inside out with like colors, only use
+                            non-chlorine
+                            bleach, tumble dry low, do not iron decoration</p>
+                        <div class='price-wrapper'>
+                            <h5>₹ 1499</h5>
+                            <h6 class='strike-through'>₹ 2999</h6>
+                            <h6 class='discount-text'>₹50% off </h6>
+                        </div>
+                        <button class='button button-icons primary'> <img class='icon' src="/assets/cart.svg"
+                                alt="cart icon"><span>ADD TO CART</span></button>
+                        <button class='button outline-secondary'>WISHLIST</button>
+                    </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <div class='card horizontal'>
+                        <img class='card-img' src='/assets/card-img.jpg'>
+                        <img class='card-badge' src="/assets/discount.svg" alt="discount icon">
+                        <button class='corner-button'><img src="/assets/heart.svg" alt="heart icon"></button>
+                        <div class='card-content'>
+                            <h6 class='font-semibold'>Eminem Recovery T-shirt</h6>
+                            <p class='p-sm'>100% Cotton Machine wash warm, inside out with like colors, only use non-chlorine bleach, tumble dry low, do not iron decoration</p>
+                            <div class='price-wrapper'>
+                                <h5>₹ 1499</h5>
+                                <h6 class='strike-through'>₹ 2999</h6>
+                                <h6 class='discount-text'>₹50% off </h6>
+                            </div>
+                            <button class='button button-icons primary'> <img class='icon' src="/assets/cart.svg"
+                                    alt="cart icon"><span>ADD TO CART</span></button>
+                            <button class='button outline-secondary'>WISHLIST</button>
+                        </div>
+                    </div>
+                </script>
+            </div>
+            </div>
+            <h5>Card with overlay</h5>
+            <div class="component-container">
+                <!--cards-with-overlay-->
+                <div class='card vertical'>
+                    <img class='card-img' src='/assets/card-img.jpg'>
+                    <button class='corner-button'><img src="/assets/heart.svg" alt="heart icon"></button>
+                    <div class='card-content'>
+                        <h6 class='font-semibold'>Eminem Recovery T-shirt</h6>
+                        <h5>₹ 1499</h5>
+                        <button class='button button-icons primary'> <img class='icon' src="/assets/cart.svg"
+                                alt="cart icon"><span>ADD TO CART</span></button>
+                    </div>
+                    <div class='overlay'><img class='overlay-img' src="/assets/sold-out-img.png" alt="sold out img">
+                    </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <!--cards-with-overlay-->
+                    <div class='card vertical'>
+                        <img class='card-img' src='/assets/card-img.jpg'>
+                        <button class='corner-button'><img src="/assets/heart.svg" alt="heart icon"></button>
+                        <div class='card-content'>
+                            <h6 class='font-semibold'>Eminem Recovery T-shirt</h6>
+                            <h5>₹ 1499</h5>
+                            <button class='button button-icons primary'> <img class='icon' src="/assets/cart.svg" alt="cart icon"><span>ADD TO CART</span></button>
+                        </div>
+                        <div class='overlay'><img class='overlay-img' src="/assets/sold-out-img.png" alt="sold out img">
+                        </div>
+                    </div>
+                </script>
+            </div>
+            <h5>Card with shadow</h5>
+            <div class="component-container">
+                <!--card-with-shadow-->
+                <div class='card vertical shadow'>
+                    <img class='card-img' src='/assets/card-img.jpg'>
+                    <button class='corner-button'><img src="/assets/heart.svg" alt="heart icon"></button>
+                    <div class='card-content'>
+                        <h6 class='font-semibold'>Eminem Recovery T-shirt</h6>
+                        <h5>₹ 1499</h5> 
+                        <button class='button button-icons primary'> <img class='icon' src="/assets/cart.svg"
+                                alt="cart icon"><span>ADD TO CART</span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <!--card-with-shadow-->
+                    <div class='card vertical shadow'>
+                        <img class='card-img' src='/assets/card-img.jpg'>
+                        <button class='corner-button'><img src="/assets/heart.svg" alt="heart icon"></button>
+                        <div class='card-content'>
+                            <h6 class='font-semibold'>Eminem Recovery T-shirt</h6>
+                            <h5>₹ 1499</h5>
+                            <button class='button button-icons primary'> <img class='icon' src="/assets/cart.svg" alt="cart icon"><span>ADD TO CART</span></button>
+                        </div>
+                    </div>
+                </script>
+            </div>
+        </section>
+        <!----------card-end---------->
+
+        <hr>
+
+        <!-----responsive-image-start----->
+        <section id="image">
+            <h3>Image</h3>
+            <p>
+                Images can be responsive to fit the parent's width, and also can be customised to be round or square
+                shaped.
+            </p>
+            <h5>Round image</h5>
+            <div class="component-container">
+                <!--round-image-->
+                <img class='round-img sm-img' src="/assets/img-demo.jpg" alt="image">
+                <img class='round-img md-img' src="/assets/img-demo.jpg" alt="image">
+                <img class='round-img lg-img' src="/assets/img-demo.jpg" alt="image">
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <!--round-image-->
+                    <img class='round-img sm-img' src="/assets/img-demo.jpg" alt="image">
+                    <img class='round-img md-img' src="/assets/img-demo.jpg" alt="image">
+                    <img class='round-img lg-img' src="/assets/img-demo.jpg" alt="image">
+                </script>
+            </div>
+            <h5>Square image</h5>
+            <div class="component-container">
+                <!--square-image-->
+                <img class='square-img sm-img' src="/assets/img-demo.jpg" alt="image">
+                <img class='square-img md-img' src="/assets/img-demo.jpg" alt="image">
+                <img class='square-img lg-img' src="/assets/img-demo.jpg" alt="image">
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <!--square-image-->
+                    <img class='square-img sm-img' src="/assets/img-demo.jpg" alt="image">
+                    <img class='square-img md-img' src="/assets/img-demo.jpg" alt="image">
+                    <img class='square-img lg-img' src="/assets/img-demo.jpg" alt="image">
+                </script>
+            </div>
+            <h5>Responsive image</h5>
+            <div class="component-container">
+                <!--responsive-image-->
+                <img class='res-img' src="/assets/res-img-demo.jpg" alt="image">
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <!--responsive-image-->
+                    <img class='res-img' src="/assets/res-img-demo.jpg" alt="image">
+                </script>
+            </div>
+        </section>
+        <!-----responsive-image-end----->
+
+        <hr>
+
+        <!----------input-start---------->
+        <section id="input">
+            <h3>Input</h3>
+            <p>
+                Inputs are used to take information from the user, and then save the data to the server, accordingly.
+            </p>
+            <h5>Text input</h5>
+            <div class="component-container">
+                <!--text-input-->
+                <div class="input-group">
+                    <label class='h6' for="text-input">Name</label>
+                    <input class='text-input' type="text">
+                </div>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <!--text-input-->
+                    <div class="input-group">
+                        <label class='h6' for="text-input">Name</label>
+                        <input class='text-input' type="text">
+                    </div>
+                </script>
+            </div>
+            <h5>Text input with validation</h5>
+            <div class="component-container">
+                <!--text-input-with-validation-->
+                <div class="input-group">
+                    <label class='h6' for="success-input">Name</label>
+                    <input class='text-input success-input' type="text">
+                </div>
+                <div class="input-group">
+                    <label class='h6' for="warning-input">Name</label>
+                    <input class='text-input warning-input' type="text">
+                </div>
+                <div class="input-group">
+                    <label class='h6' for="danger-input">Name</label>
+                    <input class='text-input danger-input' type="text">
+                </div>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <!--text-input-with-validation-->
+                    <div class="input-group">
+                        <label class='h6' for="success-input">Name</label>
+                        <input class='text-input success-input' type="text">
+                    </div>
+
+                    <div class="input-group">
+                        <label class='h6' for="warning-input">Name</label>
+                        <input class='text-input warning-input' type="text">
+                    </div>
+
+                    <div class="input-group">
+                        <label class='h6' for="danger-input">Name</label>
+                        <input class='text-input danger-input' type="text">
+                    </div>
+                </script>
+            </div>
+            <h5>Radio input</h5>
+            <div class="component-container">
+                <!--radio-input-->
+                <div class="input-wrapper">
+                    <h6>Rating</h6>
+                    <div class="input-group">
+                        <input class='rating-4' name="rating" type="radio">
+                        <label for="rating-4">4 stars and above</label>
+                    </div>
+                    <div class="input-group">
+                        <input class='rating-3' name="rating" type="radio">
+                        <label for="rating-3">3 stars and above</label>
+                    </div>
+                    <div class="input-group">
+                        <input class='rating-2' name="rating" type="radio">
+                        <label for="rating-2">2 stars and above</label>
+                    </div>
+                    <div class="input-group">
+                        <input class='rating-1' name="rating" type="radio">
+                        <label for="rating-1">1 star and above</label>
+                    </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <!--radio-input-->
+                    <div class="input-wrapper">
+                        <h6>Rating</h6>
+                        <div class="input-group">
+                            <input class='rating-4' name="rating" type="radio">
+                            <label for="rating-4">4 stars and above</label>
+                        </div>
+                        <div class="input-group">
+                            <input class='rating-3' name="rating" type="radio">
+                            <label for="rating-3">3 stars and above</label>
+                        </div>
+                        <div class="input-group">
+                            <input class='rating-2' name="rating" type="radio">
+                            <label for="rating-2">2 stars and above</label>
+                        </div>
+                        <div class="input-group">
+                            <input class='rating-1' name="rating" type="radio">
+                            <label for="rating-1">1 star and above</label>
+                        </div>
+                    </div>
+                </script>
+            </div>
+            <h5>Checkbox input</h5>
+            <div class="component-container">
+                <!--checkbox-input-->
+                <div class="input-wrapper">
+                    <h6>Category</h6>
+                    <div class="input-group">
+                        <input name="category-1" type="checkbox">
+                        <label for="category-1">Men's clothing</label>
+                    </div>
+                    <div class="input-group">
+                        <input name="category-2" type="checkbox">
+                        <label for="category-2">Women's clothing</label>
+                    </div>
+                    <div class="input-group">
+                        <input name="category-3" type="checkbox">
+                        <label for="category-3">Childrens clothing</label>
+                    </div>
+                </div>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <!--checkbox-input-->
+                    <div class="input-wrapper">
+                        <h6>Category</h6>
+                        <div class="input-group">
+                            <input name="category-1" type="checkbox">
+                            <label for="category-1">Men's clothing</label>
+                        </div>
+                        <div class="input-group">
+                            <input name="category-2" type="checkbox">
+                            <label for="category-2">Women's clothing</label>
+                        </div>
+                        <div class="input-group">
+                            <input name="category-3" type="checkbox">
+                            <label for="category-3">Childrens clothing</label>
+                        </div>
+                    </div>
+                </script>
+            </div>
+            <h5>Simple slider</h5>
+            <div class="component-container">
+                <!--slider-input-->
+                <input type="range" min="0" max="10" step="1" value="5">
+
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <!--slider-input-->
+                    <input type="range" min="0" max="10" step="1" value="5">
+                </script>
+            </div>
+        </section>
+        <!----------input-end---------->
+
+        <hr>
+
+        <!----------form-start---------->
+        <section id="form">
+            <h3>Form</h3>
+            <p>
+                Forms are used to collect user data. SignUp and SignIn forms are listed below.
+            </p>
+            <h5>SignIn form</h5>
+            <div class="component-container">
+                <form class="auth-form">
+                    <div class="form-header">
+                        <h5>LOGIN</h5>
+                        <p class='p-sm'>Please enter your email and password.</p>
+                    </div>
+                    <div class="form-field">
+                        <div>
+                            <label class='h6 font-medium' for="user-email">E-mail*</label>
+                            <input class='text-input' type="email" name="user-email" placeholder="kanye@xyz.com">
+                        </div>
+                        <div>
+                            <label class='h6 font-medium' for="user-password">Password*</label>
+                            <input name='user-password' class='text-input' type="password"
+                                placeholder="***************">
+                        </div>
+                    </div>
+                    <button class='button primary' type="submit">LOGIN</button>
+                    <div class="form-footer">
+                        <p class='p-sm'>Not a user yet?</p>
+                        <a href="">Sign Up</a>
+                    </div>
+                </form>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <form class="auth-form">
+                        <div class="form-header">
+                            <h5>LOGIN</h5>
+                            <p class='p-sm'>Please enter your email and password.</p>
+                        </div>
+                        <div class="form-field">
+                            <div>
+                                <label class='h6 font-medium' for="user-email">E-mail*</label>
+                                <input class='text-input' type="email" name="user-email" placeholder="kanye@xyz.com">
+                            </div>
+                            <div>
+                                <label class='h6 font-medium' for="user-password">Password*</label>
+                                <input name='user-password' class='text-input' type="password" placeholder="***************">
+                            </div>
+                        </div>
+                        <button class='button primary' type="submit">LOGIN</button>
+                        <div class="form-footer">
+                            <p class='p-sm'>Not a user yet?</p>
+                            <a href="">Sign Up</a>
+                        </div>
+                    </form>
+                </script>
+            </div>
+            <h5>SignUp form</h5>
+            <div class="component-container">
+                <form class="auth-form">
+                    <div class="form-header">
+                        <h5>SIGNUP</h5>
+                        <p class='p-sm'>Please fill in your information below.</p>
+                    </div>
+                    <div class="form-field">
+                        <div>
+                            <label class='h6 font-medium' for="user-name">Name*</label>
+                            <input name='user-name' class='text-input' type="text" placeholder="Kanye West">
+                        </div>
+                        <div>
+                            <label class='h6 font-medium' for="user-email">E-mail*</label>
+                            <input class='text-input' type="email" name="user-email" placeholder="kanye@xyz.com">
+                        </div>
+                        <div>
+                            <label class='h6 font-medium' for="user-password">Password*</label>
+                            <input name='user-password' class='text-input' type="password"
+                                placeholder="***************">
+                        </div>
+                    </div>
+                    <button class='button primary' type="submit">SIGN UP</button>
+                    <div class="form-footer">
+                        <p class='p-sm'>Already a user?</p>
+                        <a href="">Sign In</a>
+                    </div>
+                </form>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <form class="auth-form">
+                        <div class="form-header">
+                            <h5>SIGNUP</h5>
+                            <p class='p-sm'>Please fill in your information below.</p>
+                        </div>
+                        <div class="form-field">
+                            <div>
+                                <label class='h6 font-medium' for="user-name">Name*</label>
+                                <input name='user-name' class='text-input' type="text" placeholder="Kanye West">
+                            </div>
+                            <div>
+                                <label class='h6 font-medium' for="user-email">E-mail*</label>
+                                <input class='text-input' type="email" name="user-email" placeholder="kanye@xyz.com">
+                            </div>
+                            <div>
+                                <label class='h6 font-medium' for="user-password">Password*</label>
+                                <input name='user-password' class='text-input' type="password" placeholder="***************">
+                            </div>
+                        </div>
+                        <button class='button primary' type="submit">SIGN UP</button>
+                        <div class="form-footer">
+                            <p class='p-sm'>Already a user?</p>
+                            <a href="">Sign In</a>
+                        </div>
+                    </form>
+                </script>
+            </div>
+        </section>
+        <!----------form-end---------->
+
+        <hr>
+
+        <!----------navigation-start--------->
+        <section id="nav">
+            <h3>Navigation</h3>
+            <p>
+                Navigation bar is used to navigate through the web apps or websites.
+            </p>
+            <div class="component-container">
+                <nav class="main-nav">
+                    <a class="h5 brand" href="">dopeYard</a>
+                    <div class='search-bar'>
+                        <input class='text-input' type="text" placeholder="Search">
+                    </div>
+                    <ul class="link-wrapper">
+                        <li><a class="link" href="">Home</a></li>
+                        <li><a class="link" href="">Products</a></li>
+                        <li><a class='icon-link' href=""><img icon src='/assets/user.svg'></a></li>
+                        <li><a class='icon-link' href=""><img icon src='/assets/heart-white.svg'></a></li>
+                        <li><a class='icon-link' href=""><img icon src='/assets/cart.svg'></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <nav class="main-nav">
+                        <a class="h5 brand" href="....">dopeYard</a>
+                        <div class='search-bar'>
+                            <input class='text-input' type="text" placeholder="Search">
+                        </div>
+                        <ul class="link-wrapper">
+                            <li><a class="link" href="">Home</a></li>
+                            <li><a class="link" href="">Products</a></li>
+                            <li><a class='icon-link' href=""><img icon src='/assets/user.svg'></a></li>
+                            <li><a class='icon-link' href=""><img icon src='/assets/heart-white.svg'></a></li>
+                            <li><a class='icon-link' href=""><img icon src='/assets/cart.svg'></a></li>
+                        </ul>
+                    </nav>
+                </script>
+            </div>
+        </section>
+        <!----------navigation-end--------->
+
+        <hr>
+
+        <!----------toast-start---------->
+        <section id="toast">
+            <h3>Toast</h3>
+            <p>
+                Toast is mostly used to show feedback message.
+            </p>
+            <div class="component-container item-center">
+                <div class='toast toast-danger'>
+                    <div class='msg'>Can't send photo. Retry in 5 seconds.</div>
+                    <button class='icon-only-button toast-button font-semibold'>RETRY</button>
+                    <button class='icon-only-button toast-button'><img src='/assets/close-icon.svg'></button>
+                </div>
+
+                <div class='toast toast-success'>
+                    <div class='msg'>Downloaded</div>
+                    <button class='icon-only-button toast-button'><img src='/assets/close-icon.svg'></button>
+                </div>
+
+                <div class='toast toast-info'>
+                    <div class='msg'>Downloading</div>
+                    <button class='icon-only-button toast-button'><img src='/assets/close-icon.svg'></button>
+                </div>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <!--danger-toast-->
+                    <div class='toast toast-danger'>
+                        <div class='msg'>Can't send photo. Retry in 5 seconds.</div>
+                        <button class='icon-only-button toast-button font-semibold'>RETRY</button>
+                        <button class='icon-only-button toast-button'><img src='/assets/close-icon.svg'></button>
+                    </div>
+
+                    <!--success-toast-->
+                    <div class='toast toast-success'>
+                        <div class='msg'>Downloaded</div>
+                        <button class='icon-only-button toast-button'><img src='/assets/close-icon.svg'></button>
+                    </div>
+
+                    <!--info-toast-->
+                    <div class='toast toast-info'>
+                        <div class='msg'>Downloading</div>
+                        <button class='icon-only-button toast-button'><img src='/assets/close-icon.svg'></button>
+                    </div>
+                </script>
+            </div>
+        </section>
+        <!----------toast-end---------->
+
+        <hr>
+
+        <!-----simplified-grid-start----->
+        <section id="grid">
+            <h3>Simplified Grid</h3>
+            <p>
+                Use grid when you want sections in view. We have provided 2 column and 3 column layouts.
+            </p>
+            <h5>Side by side 50:50 layout</h5>
+            <div class="component-container">
+                <div class="grid-50-50">
+                    <img class='res-img' src="/assets/res-img-demo.jpg" alt="image">
+                    <img class='res-img' src="/assets/res-img-demo.jpg" alt="image">
+                </div>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <div class="grid-50-50">
+                        <img class='res-img' src="/assets/res-img-demo.jpg" alt="image">
+                        <img class='res-img' src="/assets/res-img-demo.jpg" alt="image">
+                    </div>
+            </script>
+            </div>
+            <h5>Side by side 30:70 layout</h5>
+            <div class="component-container">
+                <div class="grid-30-70">
+                    <img class='res-img center-content' src="/assets/res-img-demo.jpg" alt="image">
+                    <img class='res-img' src="/assets/res-img-demo.jpg" alt="image">
+                </div>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <div class="grid-30-70">
+                        <img class='res-img center-content' src="/assets/res-img-demo.jpg" alt="image">
+                        <img class='res-img' src="/assets/res-img-demo.jpg" alt="image">
+                    </div>
+            </script>
+            </div>
+            <h5>Side by side 70:30 layout</h5>
+            <div class="component-container">
+                <div class="grid-70-30">
+                    <img class='res-img' src="/assets/res-img-demo.jpg" alt="image">
+                    <img class='res-img center-content' src="/assets/res-img-demo.jpg" alt="image">
+                </div>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <div class="grid-70-30">
+                        <img class='res-img' src="/assets/res-img-demo.jpg" alt="image">
+                        <img class='res-img center-content' src="/assets/res-img-demo.jpg" alt="image">
+                    </div>
+            </script>
+            </div>
+            <h5>3 column layout</h5>
+            <div class="component-container">
+                <div class="grid-3-column">
+                    <img class='res-img' src="/assets/res-img-demo.jpg" alt="image">
+                    <img class='res-img' src="/assets/res-img-demo.jpg" alt="image">
+                    <img class='res-img' src="/assets/res-img-demo.jpg" alt="image">
+                </div>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <div class="grid-3-column">
+                        <img class='res-img' src="/assets/res-img-demo.jpg" alt="image">
+                        <img class='res-img' src="/assets/res-img-demo.jpg" alt="image">
+                        <img class='res-img' src="/assets/res-img-demo.jpg" alt="image">
+                    </div>
+            </script>
+            </div>
+        </section>
+        <!-----simplified-grid-end----->
+
+        <a href="#install"><button class='fab primary'><img src="/assets/arrow-up.svg" alt="arrow up img"></button></a>
+    </main>
+
+    <script src="/utilities/prism.js"></script>
+
 </body>
 
 </html>

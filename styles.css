@@ -1,0 +1,61 @@
+/*body layout*/
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 5rem 1fr 3rem;
+    grid-template-areas: 
+    'header'
+    'main'
+    'footer';
+}
+
+.main-nav {
+    grid-area: header;
+}
+
+
+/*main element styling*/
+main {
+    grid-area: main;
+    justify-self: center;
+    width: 80%;
+    background-image: url('/assets/brush.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 52%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*styling of elements inside main*/
+main h1 {
+    font-family: cursive;
+    color: var(--PRIMARY-COLOR);
+    -webkit-text-stroke: 2px var(--WHITE);
+}
+
+main p {
+    text-align: center;
+    width: 65%;
+}
+
+main .button {
+    height: 3rem;
+    width: 12rem;
+}
+
+
+/*footer*/
+footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--WHITE);
+    height: 3rem;
+    background: var(--PRIMARY-COLOR);
+}

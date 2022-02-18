@@ -39,6 +39,9 @@ input[type='range'] {
     accent-color: var(--PRIMARY-COLOR);
 }
 
+input[type='radio']:hover, input[type='checkbox']:hover{
+    cursor: pointer;
+}
 
 /*input elements container*/
 .input-wrapper {

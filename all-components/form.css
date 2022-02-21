@@ -1,6 +1,3 @@
-@import url('./utilities.css');
-
-
 /*form styling*/
 .auth-form {
     border: 1px solid var(--PRIMARY-COLOR);

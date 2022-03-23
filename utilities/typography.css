@@ -73,9 +73,3 @@ p, .p {
 .font-bold{	
     font-weight: 700;
 }
-
-
-/*text-style*/
-.strike-through{
-    text-decoration: line-through;
-}

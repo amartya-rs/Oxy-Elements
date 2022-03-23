@@ -1,0 +1,25 @@
+/*text-alignment*/
+.text-align-center {
+   text-align: center;
+}
+
+.text-align-left {
+   text-align: left;
+}
+
+.text-align-right {
+   text-align: right;
+}
+
+/*text-style*/
+.strike-through {
+   text-decoration: line-through;
+}
+
+.text-grey {
+   color: var(--GREY);
+}
+
+.text-primary {
+    color: var(--PRIMARY-COLOR)
+}

@@ -46,7 +46,9 @@
             <li><a href="#image">Image</a></li>
             <li><a href="#input">Input</a></li>
             <li><a href="#form">Form</a></li>
+            <li><a href="#list">List</a></li>
             <li><a href="#nav">Navigation</a></li>
+            <li><a href="#textutils">Text Utilities</a></li>
             <li><a href="#toast">Toast</a></li>
             <li><a href="#grid">Simplified Grid</a></li>
         </ul>
@@ -1171,6 +1173,126 @@
 
         <hr>
 
+        <!----------list-start---------->
+        <section id="list">
+            <h3>List</h3>
+            <p>
+                Lists as they indicate themselves, are used to display list of similar items. We have provided a number of options in lists to choose from.
+            </p>
+            <h5>Unordered list</h5>
+            <div class="component-container">
+                <ul class="list-style-circle">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+                <ul class="list-style-square">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+                <ul class="list-style-disc">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <ul class="list-style-circle">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+                <ul class="list-style-square">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+                <ul class="list-style-disc">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+                </script>
+            </div>
+            <h5>Ordered list</h5>
+            <div class="component-container">
+                <ol class="list-style-roman">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ol>
+                <ol class="list-style-decimal">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ol>
+                <ol class="list-style-alpha">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ol>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <ol class="list-style-roman">
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ol>
+                    <ol class="list-style-decimal">
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ol>
+                    <ol class="list-style-alpha">
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ol>
+                </script>
+            </div>
+            <h5>Stacked list</h5>
+            <div class="component-container">
+                <ul class='stacked-list'>
+                    <li>
+                        <p class="font-semibold">new follower</p>
+                        <span>@user just followed you</span>
+                    </li>
+                    <li>
+                        <p class="font-semibold">new follower</p>
+                        <span>@user just followed you</span>
+                    </li>
+                    <li>
+                        <p class="font-semibold">new follower</p>
+                        <span>@user just followed you</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <ul class='stacked-list'>
+                        <li>
+                            <p class="font-semibold">new follower</p>
+                            <span>@user just followed you</span>
+                        </li>
+                        <li>
+                            <p class="font-semibold">new follower</p>
+                            <span>@user just followed you</span>
+                        </li>
+                        <li>
+                            <p class="font-semibold">new follower</p>
+                            <span>@user just followed you</span>
+                        </li>
+                    </ul>
+                </script>
+            </div>
+        </section>
+        <!----------list-end---------->
+
+        <hr>
+
         <!----------navigation-start--------->
         <section id="nav">
             <h3>Navigation</h3>
@@ -1211,6 +1333,51 @@
             </div>
         </section>
         <!----------navigation-end--------->
+
+        <hr>
+
+        <!----------text-utilities-start-------->
+        <section id="textutils">
+            <h3>Text Utilities</h3>
+            <p>
+                We have provided a number of options in the text utilities to choose from.
+            </p>
+            <h5>Text alignment</h5>
+            <div class="component-container">
+                <div>
+                    <h6 class="text-align-left">This text is left aligned</h6>
+                </div>
+                <div>
+                    <h6 class="text-align-center">This text is center aligned</h6>
+                </div>
+                <div>
+                    <h6 class="text-align-right">This text is right aligned</h6>
+                </div>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <h6 class="text-align-left">This text is left aligned</h6>
+                    <h6 class="text-align-center">This text is center aligned</h6>
+                    <h6 class="text-align-right">This text is right aligned</h6>
+                </script>
+            </div>
+            <h5>Some other styles</h5>
+            <div class="component-container">
+                <h6 class="strike-through">This is striked text</h6>
+                <h6 class="text-grey">Text in grey color</h6>
+                <h6 class="text-primary">Text in primary color</h6>
+                <h6 class="text-primary p-sm">Text in primary color</h6>
+            </div>
+            <div class="code-container">
+                <script type='text/plain' class="line-numbers language-html">
+                    <h6 class="strike-through">This is striked text</h6>
+                    <h6 class="text-grey">Text in grey color/h6>
+                    <h6 class="text-primary">Text in primary color</h6>
+                    <h6 class="text-primary p-sm">Text in primary color</h6>
+                </script>
+                
+        </section>
+        <!----------text-utilities-end--------->
 
         <hr>
 

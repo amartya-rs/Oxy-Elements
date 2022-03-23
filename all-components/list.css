@@ -1,0 +1,35 @@
+.list-style-circle {
+   list-style: circle;
+}
+
+.list-style-square {
+   list-style: square;
+}
+
+.list-style-disc {
+   list-style: disc;
+}
+
+.list-style-roman {
+   list-style: upper-roman;
+}
+
+.list-style-decimal {
+   list-style: decimal;
+}
+
+.list-style-alpha {
+   list-style: upper-alpha;
+}
+
+.stacked-list {
+   width: max-content;
+}
+
+.stacked-list li {
+   margin-bottom: 10px;
+   border: 1px solid var(--PRIMARY-COLOR);
+   border-radius: 5px;
+   padding: 10px 1rem;
+}
+

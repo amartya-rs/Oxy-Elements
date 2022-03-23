@@ -153,6 +153,9 @@ aside::-webkit-scrollbar-thumb {
     margin-right: 10px;
 }
 
+#textutils .component-container div {
+    width: 100%;
+}
 
 /*hr styling*/
 hr {

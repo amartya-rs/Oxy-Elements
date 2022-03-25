@@ -99,6 +99,10 @@ aside::-webkit-scrollbar-thumb {
     align-items: center;
 }
 
+.rating-container {
+    justify-content: center;
+}
+
 
 /*color container*/
 .color {

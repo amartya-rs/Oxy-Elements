@@ -2,7 +2,7 @@ body {
     display: grid;
     height: 100vh;
     grid-template-columns: 15rem 1fr;
-    grid-template-areas: 
+    grid-template-areas:
     'header header'
     'aside main';
     overflow: hidden;
@@ -158,4 +158,8 @@ aside::-webkit-scrollbar-thumb {
 hr {
     width: 95%;
     margin: 1.5rem 0;
+}
+
+main {
+    scroll-behavior: smooth;
 }
